@@ -3,7 +3,7 @@ var builder = require('botbuilder');
 var luis = require('./controller/luisDialog.js');
 var cognitive = require('./controller/CognitiveDialog');
 // Some sections have been omitted
-//test
+//test new branch
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
